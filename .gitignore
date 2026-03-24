@@ -1,0 +1,31 @@
+# Environment — never commit real secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Django
+db.sqlite3
+# staticfiles/ is intentionally NOT ignored:
+# build_files.sh regenerates it at Vercel build time.
+# If you want to generate locally and commit instead, uncomment the line below:
+# staticfiles/
+media/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel/
